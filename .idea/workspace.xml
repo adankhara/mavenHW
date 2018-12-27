@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0798e8d-eb9a-402a-bdc9-407830143a79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-592708851">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="5" />
+          <entry key="java" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2159" />
+          <entry key="txt" value="22" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2159" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="198" column="65" selection-start-line="198" selection-start-column="65" selection-end-line="198" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1475#1493#0" />
+                <element signature="method#selectByVisibleText#0;class#MavenWeek2#0" />
+                <element signature="method#getText#0;class#MavenWeek2#0" />
+                <element signature="method#timeStamp#0;class#MavenWeek2#0" />
+                <element signature="method#userShouldBeAbleToRegisterSuccessfully#0;class#MavenWeek2#0" />
+                <element signature="method#registeredUserShouldBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
+                <element signature="method#unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1038" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mavenhw" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545948356099" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow">
+    <configuration name="MavenWeek2.registeredUserShouldBeAbleToSendAnEmailToFriend" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenhw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenhw" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenhw.MavenWeek2" />
+      <option name="METHOD_NAME" value="registeredUserShouldBeAbleToSendAnEmailToFriend" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MavenWeek2.unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenhw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenhw" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenhw.MavenWeek2" />
+      <option name="METHOD_NAME" value="unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MavenWeek2.userShouldBeAbleToRegisterSuccessfully" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenhw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenhw" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenhw.MavenWeek2" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToRegisterSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenhw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenhw" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenhw.MavenWeek2" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToSortByPriceHighToLow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenhw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenhw" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenhw.MavenWeek2" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToSortByPriceHighToLow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToRegisterSuccessfully" />
+      <item itemvalue="TestNG.MavenWeek2.registeredUserShouldBeAbleToSendAnEmailToFriend" />
+      <item itemvalue="TestNG.MavenWeek2.unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend" />
+      <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" />
+      <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" />
+        <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" />
+        <item itemvalue="TestNG.MavenWeek2.unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend" />
+        <item itemvalue="TestNG.MavenWeek2.registeredUserShouldBeAbleToSendAnEmailToFriend" />
+        <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToRegisterSuccessfully" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0798e8d-eb9a-402a-bdc9-407830143a79" name="Default Changelist" comment="" />
+      <created>1545919325759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545919325759</updated>
+    </task>
+    <task id="LOCAL-00001" summary="maven week 2 homework">
+      <created>1545919523490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545919523490</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maven week 2 homework">
+      <created>1545919543364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545919543364</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow - 2018.12.27 at 20h 34m 47s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 00m 05s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 28m 31s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 30m 26s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 36m 15s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 51m 42s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 52m 03s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow - 2018.12.27 at 21h 53m 05s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow - 2018.12.27 at 21h 55m 03s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow - 2018.12.27 at 21h 58m 09s.xml">
+      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15658094" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39508197" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maven week 2 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven week 2 homework" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+          <folding>
+            <element signature="e#3688#3689#0" expanded="true" />
+            <element signature="e#3731#3732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1094">
+          <caret line="314" selection-start-line="314" selection-end-line="314" />
+          <folding>
+            <element signature="e#11510#11511#0" expanded="true" />
+            <element signature="e#14689#14690#0" expanded="true" />
+            <element signature="e#14738#14739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/CollectPreconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="441" column="27" selection-start-line="441" selection-start-column="27" selection-end-line="441" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/ImmutableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="198" column="65" selection-start-line="198" selection-start-column="65" selection-end-line="198" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1475#1493#0" />
+            <element signature="method#selectByVisibleText#0;class#MavenWeek2#0" />
+            <element signature="method#getText#0;class#MavenWeek2#0" />
+            <element signature="method#timeStamp#0;class#MavenWeek2#0" />
+            <element signature="method#userShouldBeAbleToRegisterSuccessfully#0;class#MavenWeek2#0" />
+            <element signature="method#registeredUserShouldBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
+            <element signature="method#unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
