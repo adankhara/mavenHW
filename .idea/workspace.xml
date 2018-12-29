@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0798e8d-eb9a-402a-bdc9-407830143a79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sendemail.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" afterDir="false" />
     </list>
@@ -28,34 +29,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
-          <entry key="feature" value="1" />
+          <entry key="feature" value="2" />
           <entry key="java" value="9" />
-          <entry key="registration" value="1" />
+          <entry key="registration" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="Cucumber" value="2" />
+          <entry key="Cucumber" value="4" />
           <entry key="JAVA" value="9" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="674" />
-          <entry key="java" value="4791" />
+          <entry key="feature" value="1484" />
+          <entry key="java" value="4795" />
           <entry key="registration" value="2" />
-          <entry key="txt" value="32" />
+          <entry key="txt" value="53" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="676" />
-          <entry key="JAVA" value="4791" />
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Cucumber" value="1486" />
+          <entry key="JAVA" value="4795" />
+          <entry key="PLAIN_TEXT" value="53" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -63,16 +64,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="85" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="86" />
+            <state relative-caret-position="120">
+              <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#MavenWeek2#0" />
                 <element signature="method#selectByVisibleText#0;class#MavenWeek2#0" />
                 <element signature="method#getText#0;class#MavenWeek2#0" />
                 <element signature="method#timeStamp#0;class#MavenWeek2#0" />
+                <element signature="method#userShouldBeAbleToRegisterSuccessfully#0;class#MavenWeek2#0" />
                 <element signature="method#registeredUserShouldBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
                 <element signature="method#unRegisteredUserShouldNotBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
                 <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#MavenWeek2#0" />
@@ -84,11 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/registration.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="1175">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/sendemail.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -109,9 +121,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/registration" />
         <option value="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" />
         <option value="$PROJECT_DIR$/src/test/resources/registration.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/registration" />
+        <option value="$PROJECT_DIR$/src/test/resources/sendemail.feature" />
       </list>
     </option>
   </component>
@@ -122,7 +135,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1038" />
     <option name="height" value="735" />
@@ -166,7 +179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546097626701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546099647976" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -321,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545948581814</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maven week 2 homework done without gherkin">
+      <created>1546097494995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546097494995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -367,7 +387,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -403,7 +422,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven week 2 homework" />
     <MESSAGE value="maven week 2 homework half done" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven week 2 homework half done" />
+    <MESSAGE value="maven week 2 homework done without gherkin" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven week 2 homework done without gherkin" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java">
@@ -448,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/registration">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
@@ -462,15 +475,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/registration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sendemail.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/registration">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="85" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="86" />
+        <state relative-caret-position="120">
+          <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#MavenWeek2#0" />
             <element signature="method#selectByVisibleText#0;class#MavenWeek2#0" />
             <element signature="method#getText#0;class#MavenWeek2#0" />
             <element signature="method#timeStamp#0;class#MavenWeek2#0" />
+            <element signature="method#userShouldBeAbleToRegisterSuccessfully#0;class#MavenWeek2#0" />
             <element signature="method#registeredUserShouldBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
             <element signature="method#unRegisteredUserShouldNotBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
             <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#MavenWeek2#0" />
@@ -478,13 +514,6 @@
             <element signature="method#registeredUserShouldBeAbleToPurchaseProductsSuccessfully#0;class#MavenWeek2#0" />
             <element signature="method#userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions#0;class#MavenWeek2#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/registration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>

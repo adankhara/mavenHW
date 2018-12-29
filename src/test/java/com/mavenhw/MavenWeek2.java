@@ -45,11 +45,11 @@ public class MavenWeek2
         driver.get("https://demo.nopcommerce.com/");
     }
 
-//    @AfterMethod
-//    public void TearDown()
-//    {
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void TearDown()
+    {
+        driver.quit();
+    }
 
 
     //to click on element
@@ -90,7 +90,8 @@ public class MavenWeek2
         Date date = new Date();
         return dateFormat.format(date);
     }
-    //wait for element to invisible
+
+//    wait for element to invisible
 //    public void waitAndClick(By by,int time)
 //    {
 //        WebDriverWait wait = new WebDriverWait(driver,time);
