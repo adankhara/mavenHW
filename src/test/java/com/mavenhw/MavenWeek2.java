@@ -33,8 +33,8 @@ public class MavenWeek2
     private final static String expectedRegisterMessage = "Your registration completed";
     private final static String expectedEmailSentMessage = "Your message has been sent.";
     private final static String expectedEmailNotSentMessage = "Only registered customers can use email a friend feature";
-
-
+    private final static String expectedOrderSuccessfulMessage = "Your order has been successfully processed!";
+    private final static String expectedTermsAndConditionsMessage = "Please accept the terms of service before the next step.";
     @BeforeMethod
     public void setUp()
     {
@@ -122,14 +122,14 @@ public class MavenWeek2
         clickElement(By.id("Newsletter"));
 //   9.	Enter password in Password field.
         enterText(By.id("Password"),"rajesh123");
-//   10.	Enter password in Confirm Password field.
+//   10.Enter password in Confirm Password field.
         enterText(By.id("ConfirmPassword"),"rajesh123");
-//   11.	Click on Register button.
+//   11.Click on Register button.
         clickElement(By.id("register-button"));
-//   12.	“Your registration successful” message should be displayed.
+//   12.“Your registration successful” message should be displayed.
         String actualRegisterMessage = getText(By.xpath("//div[@class='result']"));
-        Assert.assertEquals("Test case registration scenario failed",expectedRegisterMessage,actualRegisterMessage);
-//   13. Click on log out button.
+        Assert.assertEquals("Test case scenario user should be able to register successfully is failed",expectedRegisterMessage,actualRegisterMessage);
+//   13.Click on log out button.
         clickElement(By.linkText("Log out"));
     }
 
@@ -156,11 +156,11 @@ public class MavenWeek2
         clickElement(By.xpath("//input[@name='send-email']"));
 //   10.“Your message has been sent” message should be displayed.
         String actualEmailSentMessage = getText(By.xpath("//div[@class='result']"));
-        Assert.assertEquals("Test case email a friend scenario failed",expectedEmailSentMessage,actualEmailSentMessage);
+        Assert.assertEquals("Test case scenario registered user should be able to send an email to friend is failed",expectedEmailSentMessage,actualEmailSentMessage);
     }
 
     @Test
-    public void unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend()
+    public void unRegisteredUserShouldNotBeAbleToSendAnEmailToFriend()
     {
 //   1.	Click on first product(Build your computer).
         clickElement(By.linkText("Build your own computer"));
@@ -176,7 +176,7 @@ public class MavenWeek2
         clickElement(By.xpath("//input[@name='send-email']"));
 //   7.	“Only registered customers can use email a friend feature” message should be displayed.
         String actualEmailNotSentMessage = getText(By.xpath("//li[contains(.,'Only registered customers can use email a friend feature')]\n"));
-        Assert.assertEquals("Test case email a friend scenario failed",expectedEmailNotSentMessage,actualEmailNotSentMessage);
+        Assert.assertEquals("Test case scenario unregistered user should not be able to send an email is failed",expectedEmailNotSentMessage,actualEmailNotSentMessage);
     }
 
     @Test
@@ -196,7 +196,7 @@ public class MavenWeek2
 
         //Assert.assertEquals(true, first < last);
 
-        Assert.assertTrue("Test case price sort by high to low is failed", first > last);
+        Assert.assertTrue("Test case scenario user should be able to sort by price high to low is failed", first > last);
     }
 
     private float getPrice(WebElement element)
@@ -209,8 +209,86 @@ public class MavenWeek2
     }
 
     @Test
-    public void userShouldBeAbleToPurchaseProducts()
+    public void registeredUserShouldBeAbleToPurchaseProductsSuccessfully()
     {
+//   1.	Click on login button.
+        clickElement(By.linkText("Log in"));
+//   2.	Enter your registered email Id in email field.
+        enterText(By.id("Email"),"rajesh.parekh123@gmail.com");
+//   3.	Enter your password in password field.
+        enterText(By.id("Password"),"rajesh9999");
+//   4.	Click on Login button.
+        clickElement(By.xpath("//input[@value='Log in']"));
+//   5.	Click on first product(Build your computer).
+        clickElement(By.linkText("Build your own computer"));
+//   6. Select hdd.
+        clickElement(By.id("product_attribute_3_6"));
+//   7. Click on add to cart button.
+        clickElement(By.id("add-to-cart-button-1"));
+//   8. Click on shopping cart.
+        clickElement(By.linkText("Shopping cart"));
+//   9. Click on to agree terms and conditions.
+        clickElement(By.id("termsofservice"));
+//   10.Click on checkout button.
+        clickElement(By.id("checkout"));
+//   11.Click on continue.
+        clickElement(By.xpath("//input[@onclick='Billing.save()']"));
+//   12.Select shipping speed as "Next day Air".
+        clickElement(By.id("shippingoption_1"));
+//   13.Click on continue.
+        clickElement(By.xpath("//input[@class='button-1 shipping-method-next-step-button']"));
+//   14.Select Credit card as payment option.
+        clickElement(By.id("paymentmethod_1"));
+//   15.Click on continue
+        clickElement(By.xpath("//input[@class='button-1 payment-method-next-step-button']"));
+//   16.Enter card holder's name
+        enterText(By.id("CardholderName"),"Rajesh Parekh");
+//   17.Enter card number
+        enterText(By.id("CardNumber"),"4111 1111 1111 1111");
+//   18.Select card expiry date
+        selectByValue(By.id("ExpireMonth"),"2");
+        selectByValue(By.id("ExpireYear"),"2021");
+//   19.Enter card cvv code.
+        enterText(By.id("CardCode"),"737");
+//   20.Click on continue
+        clickElement(By.xpath("//input[@class='button-1 payment-info-next-step-button']"));
+//   21.Click on confirm order.
+        clickElement(By.xpath("//input[@class='button-1 confirm-order-next-step-button']"));
+//   22.To verify order successful message.
+        String actualOrderSuccessfullMessage = getText(By.xpath("//strong[contains(.,'Your order has been successfully processed!')]"));
+        Assert.assertEquals("Test case scenario to place an order successfully is failed",expectedOrderSuccessfulMessage,actualOrderSuccessfullMessage);
+//   23.To log out
+        clickElement(By.linkText("Log out"));
+    }
+
+    @Test
+    public void userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions()
+    {
+//   1. Click on login button.
+        clickElement(By.linkText("Log in"));
+//   2.	Enter your registered email Id in email field.
+        enterText(By.id("Email"),"rajesh.parekh123@gmail.com");
+//   3.	Enter your password in password field.
+        enterText(By.id("Password"),"rajesh9999");
+//   4.	Click on Login button.
+        clickElement(By.xpath("//input[@value='Log in']"));
+//   5.	Click on first product(Build your computer).
+        clickElement(By.linkText("Build your own computer"));
+//   6. Select hdd.
+        clickElement(By.id("product_attribute_3_6"));
+//   7. Click on add to cart button.
+        clickElement(By.id("add-to-cart-button-1"));
+//   8. Click on shopping cart.
+        clickElement(By.linkText("Shopping cart"));
+//   9. Click on checkout(Without agreeing to terms and conditions).
+        clickElement(By.id("checkout"));
+//   10.To verify "please agree to terms and condition message is displayed".
+        String actualTermsAndConditionsMessage = getText(By.xpath("//div[@id='terms-of-service-warning-box']/p"));
+        Assert.assertEquals("Test case scenario user should not be able to procced without agreeing to Terms and conditions is failed",expectedTermsAndConditionsMessage,expectedTermsAndConditionsMessage);
+//   11.To close the terms and conditions box
+        clickElement(By.xpath("//button[@class='ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close']"));
+//   12.To log out
+        clickElement(By.linkText("Log out"));
 
     }
 }

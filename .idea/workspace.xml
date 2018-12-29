@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0798e8d-eb9a-402a-bdc9-407830143a79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,35 +17,45 @@
     <session id="-592708851">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
+          <entry key="feature" value="1" />
           <entry key="java" value="9" />
+          <entry key="registration" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
+          <entry key="Cucumber" value="2" />
           <entry key="JAVA" value="9" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2159" />
-          <entry key="txt" value="22" />
+          <entry key="feature" value="674" />
+          <entry key="java" value="4791" />
+          <entry key="registration" value="2" />
+          <entry key="txt" value="32" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2159" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Cucumber" value="676" />
+          <entry key="JAVA" value="4791" />
+          <entry key="PLAIN_TEXT" value="32" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -54,21 +63,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="198" column="65" selection-start-line="198" selection-start-column="65" selection-end-line="198" selection-end-column="65" />
+            <state relative-caret-position="357">
+              <caret line="32" column="85" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1475#1493#0" />
                 <element signature="method#selectByVisibleText#0;class#MavenWeek2#0" />
                 <element signature="method#getText#0;class#MavenWeek2#0" />
                 <element signature="method#timeStamp#0;class#MavenWeek2#0" />
-                <element signature="method#userShouldBeAbleToRegisterSuccessfully#0;class#MavenWeek2#0" />
                 <element signature="method#registeredUserShouldBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
-                <element signature="method#unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
+                <element signature="method#unRegisteredUserShouldNotBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
+                <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#MavenWeek2#0" />
+                <element signature="method#getPrice#0;class#MavenWeek2#0" />
+                <element signature="method#registeredUserShouldBeAbleToPurchaseProductsSuccessfully#0;class#MavenWeek2#0" />
+                <element signature="method#userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions#0;class#MavenWeek2#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/registration.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -90,6 +110,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/registration.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/registration" />
       </list>
     </option>
   </component>
@@ -110,6 +132,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,19 +150,6 @@
               <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
               <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -146,27 +157,17 @@
               <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenhw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenHW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mavenhw" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545948356099" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546097189609" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,8 +181,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow">
-    <configuration name="MavenWeek2.registeredUserShouldBeAbleToSendAnEmailToFriend" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions">
+    <configuration name="MavenWeek2.registeredUserShouldBeAbleToPurchaseProductsSuccessfully" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenHW" />
       <extension name="coverage">
         <pattern>
@@ -191,25 +192,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.mavenhw" />
       <option name="MAIN_CLASS_NAME" value="com.mavenhw.MavenWeek2" />
-      <option name="METHOD_NAME" value="registeredUserShouldBeAbleToSendAnEmailToFriend" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MavenWeek2.unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenHW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mavenhw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mavenhw" />
-      <option name="MAIN_CLASS_NAME" value="com.mavenhw.MavenWeek2" />
-      <option name="METHOD_NAME" value="unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend" />
+      <option name="METHOD_NAME" value="registeredUserShouldBeAbleToPurchaseProductsSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -271,20 +254,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenhw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenhw" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenhw.MavenWeek2" />
+      <option name="METHOD_NAME" value="userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToRegisterSuccessfully" />
-      <item itemvalue="TestNG.MavenWeek2.registeredUserShouldBeAbleToSendAnEmailToFriend" />
-      <item itemvalue="TestNG.MavenWeek2.unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend" />
       <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" />
       <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" />
+      <item itemvalue="TestNG.MavenWeek2.registeredUserShouldBeAbleToPurchaseProductsSuccessfully" />
+      <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToRegisterSuccessfully" />
+      <item itemvalue="TestNG.MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" />
+        <item itemvalue="TestNG.MavenWeek2.registeredUserShouldBeAbleToPurchaseProductsSuccessfully" />
+        <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToRegisterSuccessfully" />
         <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" />
         <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" />
-        <item itemvalue="TestNG.MavenWeek2.unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend" />
-        <item itemvalue="TestNG.MavenWeek2.registeredUserShouldBeAbleToSendAnEmailToFriend" />
-        <item itemvalue="TestNG.MavenWeek2.userShouldBeAbleToRegisterSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -313,46 +314,62 @@
       <option name="project" value="LOCAL" />
       <updated>1545919543364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="maven week 2 homework half done">
+      <created>1545948581814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545948581814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow - 2018.12.27 at 20h 34m 47s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_registeredUserShouldBeAbleToPurchaseProductsSuccessfully - 2018.12.29 at 13h 16m 00s.xml">
+      <configuration name="MavenWeek2.registeredUserShouldBeAbleToPurchaseProductsSuccessfully" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 00m 05s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_registeredUserShouldBeAbleToPurchaseProductsSuccessfully - 2018.12.29 at 13h 16m 59s.xml">
+      <configuration name="MavenWeek2.registeredUserShouldBeAbleToPurchaseProductsSuccessfully" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 28m 31s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2018.12.29 at 13h 48m 06s.xml">
+      <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 30m 26s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2018.12.29 at 13h 49m 24s.xml">
+      <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 36m 15s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2018.12.29 at 13h 51m 24s.xml">
+      <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 51m 42s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2018.12.29 at 13h 53m 04s.xml">
+      <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow_(1) - 2018.12.27 at 21h 52m 03s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow (1)" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2018.12.29 at 13h 57m 35s.xml">
+      <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow - 2018.12.27 at 21h 53m 05s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2018.12.29 at 13h 58m 18s.xml">
+      <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow - 2018.12.27 at 21h 55m 03s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2018.12.29 at 13h 59m 34s.xml">
+      <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MavenWeek2_userShouldBeAbleToSortByPriceHighToLow - 2018.12.27 at 21h 58m 09s.xml">
-      <configuration name="MavenWeek2.userShouldBeAbleToSortByPriceHighToLow" configurationId="TestNG" />
+    <history-entry file="MavenWeek2_userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions - 2018.12.29 at 14h 07m 15s.xml">
+      <configuration name="MavenWeek2.userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions" configurationId="TestNG" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15658094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,12 +378,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39508197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15409836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.09344263" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
@@ -385,24 +402,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven week 2 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven week 2 homework" />
+    <MESSAGE value="maven week 2 homework half done" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven week 2 homework half done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="388" selection-start-line="388" selection-end-line="388" />
-          <folding>
-            <element signature="e#3688#3689#0" expanded="true" />
-            <element signature="e#3731#3732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -410,11 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1094">
           <caret line="314" selection-start-line="314" selection-end-line="314" />
-          <folding>
-            <element signature="e#11510#11511#0" expanded="true" />
-            <element signature="e#14689#14690#0" expanded="true" />
-            <element signature="e#14738#14739#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,20 +448,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/registration">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mavenhw/MavenWeek2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="198" column="65" selection-start-line="198" selection-start-column="65" selection-end-line="198" selection-end-column="65" />
+        <state relative-caret-position="357">
+          <caret line="32" column="85" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1475#1493#0" />
             <element signature="method#selectByVisibleText#0;class#MavenWeek2#0" />
             <element signature="method#getText#0;class#MavenWeek2#0" />
             <element signature="method#timeStamp#0;class#MavenWeek2#0" />
-            <element signature="method#userShouldBeAbleToRegisterSuccessfully#0;class#MavenWeek2#0" />
             <element signature="method#registeredUserShouldBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
-            <element signature="method#unRegiseredUserShouldNotBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
+            <element signature="method#unRegisteredUserShouldNotBeAbleToSendAnEmailToFriend#0;class#MavenWeek2#0" />
+            <element signature="method#userShouldBeAbleToSortByPriceHighToLow#0;class#MavenWeek2#0" />
+            <element signature="method#getPrice#0;class#MavenWeek2#0" />
+            <element signature="method#registeredUserShouldBeAbleToPurchaseProductsSuccessfully#0;class#MavenWeek2#0" />
+            <element signature="method#userShouldNotBeAbleToProceedToCheckoutWithoutAgreeingTermAndConditions#0;class#MavenWeek2#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/registration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
